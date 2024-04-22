@@ -1,0 +1,22 @@
+.service-row {
+    margin-bottom: 2rem; 
+}
+  
+.service-row img {
+    max-width: 100%; 
+}
+  
+.service-category h3 {
+    color: #333;
+}
+  
+.service-category ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+  
+.service-category li {
+    padding: 0.5rem 0; 
+    line-height: 1.6; 
+}
+  
