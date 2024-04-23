@@ -1,22 +1,69 @@
-.service-row {
-    margin-bottom: 2rem; 
+/* Overall Services Container Styling */
+.container {
+    background-color: #fff; /* Light background for the content */
+    padding: 2rem 1rem; /* Provides padding around the content */
+    border-radius: 8px; /* Soften edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
   
+/* Heading Styles */
+h2 {
+    color: #0056b3; /* A strong, inviting color for headings */
+    font-weight: bold;
+}
+  
+/* Service Category Titles */
+.service-row h3 {
+    color: #0056b3; /* Ensures consistency in heading colors */
+    margin-bottom: 1rem; /* Space below headings */
+    font-weight: 500; /* Semi-bold for clarity */
+    text-align: center; /* Centers title text */
+}
+  
+/* List Styling with Bullets */
+.service-row ul {
+    list-style: none; /* Adds bullets back with disc style */
+    padding: 0;
+    font-size: 16px; /* Readable text size */
+    color: #666; /* Slightly muted text color for readability */
+}
+  
+.service-row li {
+    padding: 0.5rem 0; /* Spacing between list items */
+    border-bottom: 1px solid #eee; /* Subtle separators for clarity */
+}
+  
+/* Last item in list should not have a border */
+.service-row li:last-child {
+    border-bottom: none;
+}
+  
+/* Text Container Styling */
+.service-row .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically centers the content */
+    align-items: center; /* Horizontally centers the content */
+}
+  
+/* Image Styling */
 .service-row img {
-    max-width: 100%; 
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Shadow for images */
 }
   
-.service-category h3 {
-    color: #333;
-}
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .service-row {
+      flex-direction: column-reverse; /* Stack image on top at smaller sizes */
+    }
   
-.service-category ul {
-    list-style-type: none; 
-    padding: 0; 
-}
+    .service-row img {
+      margin-bottom: 1rem; /* Space between image and text when stacked */
+    }
   
-.service-category li {
-    padding: 0.5rem 0; 
-    line-height: 1.6; 
+    .service-row .col-md-6 {
+      align-items: center; /* Ensure text remains centered in mobile view */
+    }
 }
   

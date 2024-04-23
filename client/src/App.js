@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import MainNavbar from './components/Navbar/MainNavbar';
 import LandingPage from './components/Landing/LandingPage';
 import Services from './components/Services/service';
+import Bio from './components/Bio/Bio';
 // Import other components as needed
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <MainNavbar />
       <LandingPage />
       <Services />
+      <Bio />
     </Router>
   );
 }

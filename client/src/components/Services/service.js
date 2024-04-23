@@ -9,8 +9,8 @@ import companion from './companion.png';
 
 function Services() {
   return (
-    <Container className="my-5">
-      <h2 className="text-center mb-4">Our Services</h2>
+    <Container className="my-2">
+      <h1 className="text-center mb-4">Our Services</h1>
 
       <Row className="align-items-center service-row">
         <Col md={6}>
@@ -18,8 +18,6 @@ function Services() {
           <ul>
             <li>Bathing</li>
             <li>Grooming</li>
-            <li>Hygiene</li>
-            <li>Dressing</li>
             <li>Feeding</li>
             <li>Exercise Assistance</li>
           </ul>
