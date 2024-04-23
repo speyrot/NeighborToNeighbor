@@ -6,7 +6,7 @@ import zoe from './zoe.png';
 function Bio() {
   return (
     <Container className="my-2">
-      <h2 className="text-center mb-4">Who We Are</h2>
+      <h1 className="text-center mb-4">Who We Are</h1>
       <Row className="justify-content-center align-items-center">
         <Col md={6}>
           <div className="text-center">
