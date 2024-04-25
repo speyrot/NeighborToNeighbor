@@ -9,7 +9,7 @@ import companion from './companion.png';
 
 function Services() {
   return (
-    <Container className="my-2">
+    <Container className="my-0" style={{boxShadow: 'none'}}>
       <h1 className="text-center mb-4">Our Services</h1>
 
       <Row className="align-items-center service-row">

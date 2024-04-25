@@ -33,8 +33,8 @@ function ReviewsCarousel() {
   ];
 
   return (
-    <div className="review-carousel">
-      <h1 className="reviews-header">What Our Customers Have to Say</h1>
+    <div className="review-carousel" style={{boxShadow: 'none'}}>
+      <h1 className="text-center mb-4">What Our Customers Have to Say</h1>
       <Slider {...settings}>
         {reviews.map((review) => (
           <div key={review.id} className="review-card">

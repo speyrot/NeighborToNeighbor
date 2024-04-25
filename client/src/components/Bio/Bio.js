@@ -5,7 +5,7 @@ import zoe from './zoe.png';
 
 function Bio() {
   return (
-    <Container className="my-2">
+    <Container className="my-0" style={{boxShadow: 'none'}}>
       <h1 className="text-center mb-4">Who We Are</h1>
       <Row className="justify-content-center align-items-center">
         <Col md={6}>
