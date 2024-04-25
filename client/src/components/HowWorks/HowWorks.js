@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 import './work.css';
 
 function HowItWorks() {
@@ -49,7 +50,7 @@ function HowItWorks() {
         </Col>
       </Row>
       <div className="d-flex justify-content-center mt-4">
-        <button className="green-btn">Schedule a Free Consultation</button>
+        <Link to="schedule" spy={true} smooth={true} duration={500} className="green-btn"><strong>Schedule a Free Consultation</strong></Link>
       </div>
     </Container>
   );
