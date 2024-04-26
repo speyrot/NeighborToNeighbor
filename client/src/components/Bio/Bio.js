@@ -10,7 +10,6 @@ function Bio() {
       <Row className="justify-content-center align-items-center">
         <Col md={6}>
           <div className="text-center">
-            {/* Placeholder for Kingsley's image */}
             <img src={kingsley} alt="Kingsley Fomba" style={{ width: '200px', height: '200px', borderRadius: '50%', objectFit: 'cover' }} />            
             <h3>Kingsley Fomba</h3>
             <p style={{color: '#0056b3'}}>Owner / Management</p>
@@ -19,7 +18,6 @@ function Bio() {
         </Col>
         <Col md={6}>
           <div className="text-center">
-            {/* Placeholder for Zoe's image */}
             <img src={zoe} alt="Zoe" style={{ width: '200px', height: '200px', borderRadius: '50%', objectFit: 'cover' }} />            
             <h3>Zoe</h3>
             <p style={{color: '#0056b3'}}>RN / Care Coordinator</p>
