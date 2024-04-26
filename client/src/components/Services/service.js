@@ -16,7 +16,6 @@ function Services() {
         <Col md={6}>
           <h3>Personal Care</h3>
           <ul>
-            <li>Bathing</li>
             <li>Grooming</li>
             <li>Feeding</li>
             <li>Exercise Assistance</li>
@@ -57,10 +56,11 @@ function Services() {
 
       <Row className="align-items-center service-row flex-md-row-reverse">
         <Col md={6}>
-          <h3>Mobility Support</h3>
+          <h3>Transportation Services</h3>
           <ul>
-            <li>Ambulation</li>
-            <li>Transportation Services</li>
+            <li>Transport to and from medical appointments</li>
+            <li>Rides to special events</li>
+            <li>Visits to family</li>
           </ul>
         </Col>
         <Col md={6}>
