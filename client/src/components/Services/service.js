@@ -1,15 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './service.css';
-import exercise from './exercise.png';
-import wheelchair from './wheelchair.png';
-import shopping from './shopping.png';
-import van from './van.png';
-import companion from './companion.png';
 
 function Services() {
+
   return (
-    <Container className="my-0" style={{boxShadow: 'none'}}>
+    <Container className="my-0" style={{ boxShadow: 'none' }}>
       <h1 className="text-center mb-4">Our Services</h1>
 
       <Row className="align-items-center service-row">
@@ -22,7 +18,13 @@ function Services() {
           </ul>
         </Col>
         <Col md={6}>
-          <img src={exercise} alt="Personal Care" className="img-fluid"/>
+          <img src="/exercise_small.jpeg" 
+               srcset={`/exercise_small.jpeg 500w,
+                        /exercise_medium.jpeg 1000w,
+                        /exercise_large.jpeg 1500w`}
+               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
+               alt="Personal Care" 
+               className="img-fluid"/>
         </Col>
       </Row>
 
@@ -36,7 +38,13 @@ function Services() {
           </ul>
         </Col>
         <Col md={6}>
-          <img src={wheelchair} alt="Health Management" className="img-fluid"/>
+          <img src="/wheelchair_small.jpeg"
+               srcset={`/wheelchair_small.jpeg 500w,
+                        /wheelchair_medium.jpeg 1000w,
+                        /wheelchair_large.jpeg 1500w`}
+               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
+               alt="Health Management" 
+               className="img-fluid"/>
         </Col>
       </Row>
 
@@ -50,7 +58,13 @@ function Services() {
           </ul>
         </Col>
         <Col md={6}>
-          <img src={shopping} alt="Home Assistance" className="img-fluid"/>
+          <img src="/shopping_small.jpeg"
+               srcset={`/shopping_small.jpeg 500w,
+                        /shopping_medium.jpeg 1000w,
+                        /shopping_large.jpeg 1500w`}
+               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
+               alt="Home Assistance" 
+               className="img-fluid"/>
         </Col>
       </Row>
 
@@ -64,7 +78,13 @@ function Services() {
           </ul>
         </Col>
         <Col md={6}>
-          <img src={van} alt="Mobility Support" className="img-fluid"/>
+          <img src="/transport_small.jpeg"
+               srcset={`/transport_small.jpeg 500w,
+                        /transport_medium.jpeg 1000w,
+                        /transport_large.jpeg 1500w`}
+               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
+               alt="Mobility Support" 
+               className="img-fluid"/>
         </Col>
       </Row>
 
@@ -78,7 +98,13 @@ function Services() {
           </ul>
         </Col>
         <Col md={6}>
-          <img src={companion} alt="Companionship and Support" className="img-fluid"/>
+          <img src="/companion_small.jpeg"
+               srcset={`/companion_small.jpeg 500w,
+                        /companion_medium.jpeg 1000w,
+                        /companion_large.jpeg 1500w`}
+               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
+               alt="Companionship and Support" 
+               className="img-fluid"/>
         </Col>
       </Row>
     </Container>
