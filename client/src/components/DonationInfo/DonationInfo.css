@@ -1,0 +1,32 @@
+.donation-container {
+    background-color: #fff; 
+    padding: 2rem 1rem; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+  
+.donation-icon {
+    color: #0056b3;
+}
+  
+.donation-container p {
+    color: #333; 
+    margin-bottom: 1rem; 
+    font-weight: 400;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.custom-button {
+    border: 2px solid #0056b3 !important; 
+    color: #0056b3 !important;
+    background-color: transparent !important;
+    transition: background-color 0.3s, color 0.3s !important;
+}
+  
+.custom-button:hover {
+    background-color: #0056b3 !important;
+    color: white !important;
+}
