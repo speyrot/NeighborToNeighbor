@@ -6,7 +6,7 @@ import Services from './components/Services/service';
 import Bio from './components/Bio/Bio';
 import ScheduleConsultation from './components/Calendly/schedule';
 import HowItWorks from './components/HowWorks/HowWorks';
-import DonationInfo from './components/DonationInfo/DonationInfo';
+//import DonationInfo from './components/DonationInfo/DonationInfo';
 import Footer from './components/Footer/footer';
 
 function App() {
@@ -19,9 +19,9 @@ function App() {
       <div id="how-it-works">
         <HowItWorks/>
       </div>
-      <div id="donation-info">
+      {/*<div id="donation-info">
         <DonationInfo/>
-      </div>
+      </div>*/}
       <div id="services">
         <Services/>
       </div>
