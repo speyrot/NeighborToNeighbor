@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import kingsley from './Kingsley.jpeg';
-import zoe from './Zoe.jpeg';
+import kingsley from './kingsley.png';
+import zoe from './zoe.png';
 import gideon from './Gideon.jpeg';
 function Bio() {
   return (
