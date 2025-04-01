@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import kingsley from './kingsley.png';
-import zoe from './zoe.png';
-import gideon from './gideon.png';
+import kingsley from './Kingsley.png';
+import zoe from './Zoe.png';
+import gideon from './Gideon.jpeg';
 function Bio() {
   return (
     <Container className="my-0" style={{boxShadow: 'none'}}>
